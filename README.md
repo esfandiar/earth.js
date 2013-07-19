@@ -131,5 +131,6 @@ grunt server
 ```
 Then open your browser and go to:
 
-For AngularJS directive example: localhost:8000/examples/angularjs/index.html
-For jQuery plugin example: localhost:8000/examples/jquery/index.html
+AngularJS directive example: localhost:8000/examples/angularjs/index.html
+
+jQuery plugin example: localhost:8000/examples/jquery/index.html
