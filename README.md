@@ -9,9 +9,9 @@ The source code is written in [Typescript](http://www.typescriptlang.org/) which
 
 ### Usage ###
 
-Download the [the main minified file](https://github.com/esfandiar/earth.js/build/earth.min.js) and include it in your html. You can use this single file to setup earth.js.
+Download the [the main minified file](https://github.com/esfandiar/earth.js/tree/master/build/earth.min.js) and include it in your html. You can use this single file to setup earth.js.
 
-If you haven't included Three.js library in your HTML, then you also need to download [this file](https://github.com/esfandiar/earth.js/libs/threejsLibs.js).
+If you haven't included Three.js library in your HTML, then you also need to download [this file](https://github.com/esfandiar/earth.js/tree/master/libs/threejsLibs.js).
 
 If you have included Three.js library already, just make sure that you also include these files from Three.js (please note that right now Three.js r59 is not yet compatible with this version of Earth.js):
 - 'threejs/build/three.min.js'
@@ -31,7 +31,7 @@ Note: threejsLibs.js file, which is inside the libs folder, is the concatenated 
 To make it easier to work with earth.js you can either download the jQuery plugin or the AngularJS directive which act as wrappers and setup earth.js for you:
 
 #### AngularJS Directive ####
-For AngularJS directive download the [file](https://github.com/esfandiar/earth.js/build/angular.earth.js) and include it in your html (along with the other necessary files that have been mentioned before).
+For AngularJS directive download the [file](https://github.com/esfandiar/earth.js/tree/master/build/angular.earth.js) and include it in your html (along with the other necessary files that have been mentioned before).
 
 ```html
 <script src="js/threejsLibs.js"></script>
@@ -46,7 +46,7 @@ For AngularJS directive download the [file](https://github.com/esfandiar/earth.j
 </body>
 ```
 
-Here's a full [example](https://github.com/esfandiar/earth.js/examples/angularjs/index.html) using AngularJS directive.
+Here's a full [example](https://github.com/esfandiar/earth.js/tree/master/examples/angularjs/index.html) using AngularJS directive.
 
 Directive attributes:
 - dataPoints: An array of JSON objects which represent the data points on the earth model. Each data point should have the following format:
@@ -65,7 +65,7 @@ annotationImage: 'URL of the image for the data point'}
 
 #### jQuery Plugin ####
 
-For jQuery plugin download the [file](https://github.com/esfandiar/earth.js/build/jquery.earth.js) and include it in your html (along with the other necessary files that have been mentioned before).
+For jQuery plugin download the [file](https://github.com/esfandiar/earth.js/tree/master/build/jquery.earth.js) and include it in your html (along with the other necessary files that have been mentioned before).
 
 ```html
 <script src="js/threejsLibs.js"></script>
@@ -77,7 +77,7 @@ For jQuery plugin download the [file](https://github.com/esfandiar/earth.js/buil
 </body>
 ```
 
-Here's a full [example](https://github.com/esfandiar/earth.js/examples/jquery/index.html) using jQuery plugin.
+Here's a full [example](https://github.com/esfandiar/earth.js/tree/master/examples/jquery/index.html) using jQuery plugin.
 
 Setup:
 ```
@@ -130,5 +130,6 @@ grunt build
 grunt server
 ```
 Then open your browser and go to:
+
 For AngularJS directive example: localhost:8000/examples/angularjs/index.html
 For jQuery plugin example: localhost:8000/examples/jquery/index.html
