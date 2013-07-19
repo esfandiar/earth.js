@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>EarthJs jQuery plugin Test</title>
+	<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js"></script>
+	<script type="text/javascript" src="../../libs/threejsLibs.js"></script>
+	<script type="text/javascript" src="../../src/plugins/jquery.earth.js"></script>
+	<script type="text/javascript" src="../../build/earth.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			// Compile the template using Handlebars
+			var source = $('#entry-template').html();
+			var template = Handlebars.compile(source);
+
+			// Setup the initial dataPoints... this can be an empty array. For the demonstration purposes it's filled in
+			var dataPoints = [
+				{id:'1', title:'Toronto', latitude:43.65323, longitude:-79.38318, detail:'Toronto, Canada - Sunny weather', annotationImage: '/examples/images/Sunny-icon.png',background:''},
+				{id:'2', title:'Paris', latitude:48.85661, longitude:2.35222, detail:'Paris, France - Sunny weather', annotationImage: '/examples/images/Sunny-icon.png',background:''}];
+
+			// Setup the callback function which is invoked when a data point is clicked on the earth model
+			dataPointClickedCallback = function(selectedDataPoint){
+				for (var i = 0; i < dataPoints.length; i++){
+					dataPoints[i].id === selectedDataPoint.id ? dataPoints[i].background = '#CC9933' : dataPoints[i].background = '';
+				}
+				updateTemplate();
+			};
+
+			// Setup the plugin here
+			var earthPlugin = $('#earth').earth({'width':'600','height':'600','dataPointClickedCallback':dataPointClickedCallback});
+			// Change the texture of the earth model
+			earthPlugin.setEarthTexture('/examples/images/EarthTexture.jpg');
+			// Set the data points on the map. This function will replace all the existing data points with the given data points.
+			// We don't need to use this function, we could just use addDataPoint to add data points one at a time
+			earthPlugin.setDataPoints(dataPoints);
+
+			// The function for adding a single data point to the earth model
+			addDataPoint = function(){
+				var newDataPoint = {id:$('#newDataPointId').val().toString(), title:$('#newDataPointTitle').val(), latitude:$('#newDataPointLatitude').val(), longitude:$('#newDataPointLongitude').val(), detail:$('#newDataPointDetail').val(), annotationImage: $('#newDataPointAnnotationImage').val()};
+				earthPlugin.addDataPoint(newDataPoint);
+				dataPoints.push(newDataPoint);
+				updateTemplate();
+			};
+
+			// The function for removing a single data point from the earth model by the id
+			removeDataPoint = function(dataPointId){
+				var dataPointIdString = dataPointId.toString();
+				earthPlugin.removeDataPointById(dataPointIdString);
+				var deletingIndex = -1;
+				for (var i = 0; i < dataPoints.length; i++){
+					if (dataPoints[i].id === dataPointIdString){
+						deletingIndex = i;
+						break;
+					}
+				}
+				if (deletingIndex != -1)
+					dataPoints.splice(deletingIndex,1);
+				updateTemplate();
+			};
+
+			// The function for updating the template using Handlebars
+			updateTemplate = function(){
+				$('#entry-template').html(template({dataPoints:dataPoints}));
+			};
+
+			updateTemplate();
+		});
+	</script>
+</head>
+<body style="background-color:#000000;color:#FFFFFF;margin:0;padding:0;">
+	<div id="entry-template" style="width:600px;float:left;margin:50px;">
+		<div style="margin:10px;">
+			{{#dataPoints}}
+			<div style="background-color:{{background}};">
+				<div style="float:left;margin:5px;">ID: {{id}}</div>
+				<div style="float:left;margin:5px;">Title: {{title}}</div>
+				<div style="float:left;margin:5px;">Detail: {{detail}}</div>
+				<i onclick="removeDataPoint({{id}})" style="float:left;margin:5px;" class="icon-remove icon-white"></i>
+				<br style="clear:both;"/>
+			</div>
+			{{/dataPoints}}
+		</div>
+		<form ng-submit="addDataPoint()">
+			<input type="text" id="newDataPointId" size="10" placeholder="ID">
+			<input type="text" id="newDataPointTitle" size="20" placeholder="Title">
+			<input type="text" id="newDataPointLatitude" size="10" placeholder="Latitude">
+			<input type="text" id="newDataPointLongitude" size="10" placeholder="Longitude">
+			<input type="text" id="newDataPointDetail" size="30" placeholder="Detail">
+			<input type="text" id="newDataPointAnnotationImage" size="30" placeholder="Annotation Image URL">
+			<input type="button" onclick="addDataPoint();return false;" class="btn btn-primary" value="Add New Data Point">
+		</form>
+	</div>
+	<div style="float:right;">
+		<div id="earth"></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,1542 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"longitude",
+				"longitudeIncrement"
+			],
+			[
+				"longitu",
+				"longitudeDifference"
+			],
+			[
+				"longi",
+				"longitude"
+			],
+			[
+				"image",
+				"imageName"
+			],
+			[
+				"tags",
+				"tagsString"
+			],
+			[
+				"has",
+				"hasHoveredOut"
+			],
+			[
+				"ann",
+				"annotationImage"
+			],
+			[
+				"anno",
+				"annotationType"
+			],
+			[
+				"load",
+				"loadLoggedInUser"
+			],
+			[
+				"timeRanges",
+				"timeRangesDiv"
+			],
+			[
+				"Posit",
+				"Position"
+			],
+			[
+				"EventsView",
+				"EventsViewModule"
+			],
+			[
+				"ref",
+				"refreshView"
+			],
+			[
+				"IEvet",
+				"IEventManager"
+			],
+			[
+				"lat",
+				"latitude"
+			],
+			[
+				"latit",
+				"latitudeIncrement"
+			],
+			[
+				"currentL",
+				"currentLatitude"
+			],
+			[
+				"long",
+				"longitude"
+			],
+			[
+				"latitude",
+				"latitudeIncrement"
+			],
+			[
+				"lati",
+				"latitude"
+			],
+			[
+				"latitud",
+				"latitudeIncrement"
+			],
+			[
+				"currentCam",
+				"currentCameraLatLong"
+			],
+			[
+				"model",
+				"modelEarthRadius"
+			],
+			[
+				"test",
+				"testPosition"
+			],
+			[
+				"EventDetail",
+				"EventDetailViewModule"
+			],
+			[
+				"IEvent",
+				"IEventDetailView"
+			],
+			[
+				"earth",
+				"earthManager"
+			],
+			[
+				"selec",
+				"selectedModel"
+			],
+			[
+				"even",
+				"detectEventClick"
+			],
+			[
+				"IAnn",
+				"IAnnotationModule"
+			],
+			[
+				"log",
+				"longitude"
+			],
+			[
+				"end",
+				"endPosition"
+			],
+			[
+				"start",
+				"startPosition"
+			],
+			[
+				"setup",
+				"setupCamera"
+			],
+			[
+				"T",
+				"ThreeModule"
+			],
+			[
+				"m3u8",
+				"m3u8FileName"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"display",
+				"displayForgotPasswordForm"
+			],
+			[
+				"newPass",
+				"newPasswordConfirmation"
+			],
+			[
+				"forgotPassword",
+				"forgotPasswordUuid"
+			],
+			[
+				"validNum",
+				"validNumberic"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"showTour",
+				"showTourSubmitErrorNotification"
+			],
+			[
+				"strip",
+				"stripLeadingTrailingQuotes"
+			],
+			[
+				"selectedCom",
+				"selectedCommand"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"selectedComma",
+				"selectedCommandType"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"hasLogg",
+				"hasLoggedOut"
+			],
+			[
+				"hasLog",
+				"hasLoggedIn"
+			],
+			[
+				"languages",
+				"languages"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"lan",
+				"languageProvider"
+			],
+			[
+				"menu",
+				"menuProvider"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Main.ts",
+			"settings":
+			{
+				"buffer_size": 7949,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Esfandiar/Sites/earth.js/examples/angularjs/index.html",
+			"settings":
+			{
+				"buffer_size": 2254,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/EarthTextureAnnotation.ts",
+			"settings":
+			{
+				"buffer_size": 746,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controllers/DataPointController.ts",
+			"settings":
+			{
+				"buffer_size": 3163,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controllers/EarthController.ts",
+			"settings":
+			{
+				"buffer_size": 1592,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "plugins/jquery.earth.js",
+			"settings":
+			{
+				"buffer_size": 2022,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Esfandiar/Sites/earth.js/examples/jquery/index.html",
+			"settings":
+			{
+				"buffer_size": 2090,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/DataPointsView.ts",
+			"settings":
+			{
+				"buffer_size": 1362,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/DotAnnotation.ts",
+			"settings":
+			{
+				"buffer_size": 4251,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Esfandiar/Sites/earth.js/package.json",
+			"settings":
+			{
+				"buffer_size": 1149,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Esfandiar/Sites/earth.js/Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 2571,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 207.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Esfandiar/Sites/AngularJS-Testing-Article/test/unit/controllers/controllersSpec.js",
+		"/Users/Esfandiar/Sites/earth.js/src/models/DataPoint.ts",
+		"/Users/Esfandiar/Sites/earth.js/src/controllers/DataPointController.ts",
+		"/Users/Esfandiar/Sites/earth.js/src/views/DotAnnotation.ts",
+		"/Users/Esfandiar/Sites/earth.js/src/helpers/Camera.ts",
+		"/Users/Esfandiar/Sites/earth.js/src/models/RenderHook.ts",
+		"/Users/Esfandiar/Sites/earth.js/src/views/EarthTextureAnnotation.ts",
+		"/Users/Esfandiar/Sites/earth.js/src/views/IAnnotation.ts",
+		"/Users/Esfandiar/Sites/earth.js/src/plugins/angular.earth.js",
+		"/Users/Esfandiar/Sites/earth.js/src/models/Position.ts",
+		"/Users/Esfandiar/Sites/earth.js/src/models/JsonDataPoint.ts",
+		"/Users/Esfandiar/Sites/earth.js/src/Main.ts",
+		"/Users/Esfandiar/Sites/earth.js/src/models/EarthTextureAnnotation.ts",
+		"/Users/Esfandiar/Sites/earth.js/src/models/DotAnnotation.ts",
+		"/Users/Esfandiar/Sites/earth.js/src/controllers/EarthController.ts",
+		"/Users/Esfandiar/Sites/earth.js/src/earth.sublime-workspace",
+		"/Users/Esfandiar/Sites/earth.js/src/views/DataPointsView.ts",
+		"/Users/Esfandiar/Sites/earth.js/src/models/IAnnotation.ts",
+		"/Users/Esfandiar/Sites/earth.js/README.md",
+		"/Users/Esfandiar/Sites/earth.js/src/controllers/DataPointManager.ts",
+		"/Users/Esfandiar/Sites/earth.js/src/controllers/Earth.ts",
+		"/Users/Esfandiar/Sites/earth.js/changelog.spec.js",
+		"/Users/Esfandiar/Sites/earth.js/changelog.js",
+		"/Users/Esfandiar/Sites/earth.js/CHANGELOG.md",
+		"/Users/Esfandiar/Sites/earth.js/LICENSE",
+		"/Users/Esfandiar/Sites/earthjs.js/src/models/JsonDataPoint.ts",
+		"/Users/Esfandiar/Sites/earthjs.js/src/Main.ts",
+		"/Users/Esfandiar/Sites/earthjs.js/src/models/Position.js",
+		"/Users/Esfandiar/Sites/earthjs.js/src/models/RenderHook.ts",
+		"/Users/Esfandiar/Sites/earthjs.js/src/views/DataPointsView",
+		"/Users/Esfandiar/Sites/earthjs.js/src/models/IAnnotation.ts",
+		"/Users/Esfandiar/Sites/earthjs.js/src/models/DataPoint.ts",
+		"/Users/Esfandiar/Sites/earthjs.js/src/helpers/Camera.ts",
+		"/Users/Esfandiar/Sites/earthjs.js/src/controllers/Earth.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/index.html",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/earthApp.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/server/models/EventProvider.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/managers/DbEventProvider.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/managers/EventProvider.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/models/Event.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/js/appConfig.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/views/EventDetailView.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/managers/UserManager.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/models/User.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/models/JsonEvent.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/managers/FileEventProvider.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/managers/TimeSliderManager.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/models/DotAnnotation.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/models/EarthTextureAnnotation.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/models/IAnnotation.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/managers/EventManager.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/views/EventsView.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/main.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/models/Position.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/managers/EarthManager.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/views/EventsView.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/package.json",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/js/alohaSetup.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/http/special-chars-in-filename/info.md",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/helpers/CameraHelper.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/models/EarthTextureAnnotation.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/models/RenderHook.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/managers/EarthManager.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/server/models/UserProvider.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/managers/DbManager.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/css/style.css",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/views/NewEvent.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/models/JsonEvent.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/models/Event.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/event.html",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/helpers/GuidHelper.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/managers/UserManager.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/views/TimeSliderView.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/helpers/MiscHelper.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/helpers/CameraHelper.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/models/TimeRange.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/README.md",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/models/TimeSlider.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/views/TimeView.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/app/managers/FileEventProvider.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/js/main.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/js/app.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/managers/EarthManager.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/managers/EventManager.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/helpers/CameraHelper.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/main.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/views/EventsView.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/views/EventDetailView.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/models/IAnnotation.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/models/Event.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/models/DotAnnotation.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/models/Position.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/models/Event.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/appConfig.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/helpers/CameraHelper.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/helpers/cameraHelper.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/views/EventDetailView.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/controllers/EventDetailView.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/models/BaseAnnotation.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/models/BaseAnnotation",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/main.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/models/Annotation.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/managers/Earth",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/models/EventModel.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/libs/three.min.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/libs/require.js",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/libs/threejs.ts",
+		"/Users/Esfandiar/Sites/EarthThroughTime/src/public/app/libs/threejs.d.ts",
+		"/Users/Esfandiar/Desktop/typescript.sublime-build",
+		"/Users/Esfandiar/Downloads/three.js-master/examples/webgl_lensflares.html",
+		"/Users/Esfandiar/Sites/SolarSystem/src/public/js/main2.js",
+		"/Users/Esfandiar/Sites/SolarSystem/src/public/js/main2",
+		"/Users/Esfandiar/Sites/SolarSystem/src/public/js/three.min.js",
+		"/Users/Esfandiar/Sites/SolarSystem/src/public/index.html",
+		"/Users/Esfandiar/Sites/SolarSystem/src/public/js/Three.js",
+		"/Users/Esfandiar/Sites/SolarSystem/src/public/js/ShaderExtras.js",
+		"/Users/Esfandiar/Sites/SolarSystem/src/public/js/postprocessing/TexturePass.js",
+		"/Users/Esfandiar/Sites/SolarSystem/src/public/js/postprocessing/DotScreenPass.js",
+		"/Users/Esfandiar/Sites/SolarSystem/src/public/js/postprocessing/FilmPass.js",
+		"/Users/Esfandiar/Sites/StreamServer/package.json",
+		"/Users/Esfandiar/Sites/StreamServer/public/index.html",
+		"/Users/Esfandiar/Sites/StreamServer/app.js",
+		"/Users/Esfandiar/Sites/SolarSystem/build/javascriptBuild.sh",
+		"/Users/Esfandiar/Sites/SolarSystem/src/public/js/main.js",
+		"/Users/Esfandiar/Sites/SolarSystem/public/css/style.css",
+		"/Users/Esfandiar/Sites/SolarSystem/public/index.html",
+		"/Users/Esfandiar/Sites/SolarSystem/public/js/main.js",
+		"/Users/Esfandiar/Sites/SolarSystem/public/js/commands/ShowPicasa.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/Esfandiar/Sites/earth.js/src",
+			"/Users/Esfandiar/Sites/EarthThroughTime/src/app",
+			"/Users/Esfandiar/Sites/SolarSystem/src/app/",
+			"/Users/Esfandiar/Sites/SolarSystem/src/app",
+			"/Users/Esfandiar/Sites/SolarSystem/app",
+			"/Users/Esfandiar/Sites/SolarSystem/public/js",
+			"",
+			"/Users/Esfandiar/Sites/test_node2",
+			"/Users/Esfandiar/Sites/SolarSystemRails3/src/config"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Detector",
+			"$",
+			"dataPointSelectedCallBack",
+			"$",
+			"dataPointSelected",
+			"console",
+			"Detector",
+			"DETECTOR",
+			"EarthTexture",
+			"EarthController",
+			"Detector",
+			"canvas",
+			"renderer.domElement",
+			"container",
+			"DataPointsView",
+			"dataPointsView",
+			"models/IAnnotation",
+			"models/DotAnnotation",
+			"models/EarthTextureAnnotation",
+			"Model.EarthTextureAnnotation",
+			"Model.IAnnotation",
+			"Model.DotAnnotation",
+			"Model.IDotAnnotation",
+			"console",
+			"init",
+			"setupSkybox",
+			"console",
+			"$",
+			"dataPointManager",
+			"DataPointManager",
+			"event",
+			"Event",
+			"event",
+			"provider",
+			"event",
+			"Event",
+			"start",
+			"jsonDataPointsLoaded",
+			"Event",
+			"event",
+			"/event",
+			"existingEventWasFound",
+			"resizeImage",
+			"eventAnnotationImageFile",
+			"eventDetailTags",
+			"clear",
+			"distance",
+			"cameraDistance",
+			"eventsLoaded",
+			"geometry",
+			"metadata",
+			"Aloha.ready",
+			"submit",
+			"loadEventThumbnail",
+			"cameraDistance",
+			"ASPECT",
+			"skybox",
+			"hoveredEvent",
+			"detect",
+			"hovered",
+			"render",
+			"loaded \" + ",
+			"loaded + \"",
+			"loadEvents",
+			"provider",
+			"eventsLoaded",
+			"loadEvents",
+			"FIleEvent",
+			"eventProvider",
+			"req.",
+			"db",
+			"newEventDiv",
+			"eventsLoaded",
+			"loadEvents",
+			"eventChanged",
+			"removeFromEarth",
+			"View.NewEvent",
+			"$(\"#newEventButton\")",
+			"newEvent",
+			"Guid",
+			"eventsloaded",
+			"provider",
+			"length",
+			".length",
+			"selectEventById",
+			"tag",
+			"Model.Event",
+			"removeFromEarth",
+			"eventsLoaded",
+			"this.events",
+			"onWindowResize",
+			"aspect",
+			"container.",
+			"detectEvent",
+			"onDocumentMouseUp",
+			"window.",
+			"detectEventClick",
+			"eventsLoaded",
+			"module",
+			"ManagerModule",
+			"module",
+			"ManagerModule",
+			"EventManagerMo",
+			"controller",
+			"eventClicked",
+			"EventsViewModule",
+			"earth",
+			"eventClicked",
+			"460px",
+			"xyzToLanLong",
+			"new Posit",
+			"new Po",
+			"earth",
+			"detectEventClick",
+			"detectEve",
+			"addEvent",
+			"aspect",
+			"onWindowResize",
+			"error",
+			"lensFlareUpdateCallback",
+			"camera",
+			"loadCommandsByTourId",
+			"camera",
+			"controls",
+			"function updateCameraLocation(",
+			"updateCameraLocation",
+			"controls",
+			"blending"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"views/IAnnotation",
+			"views/DotAnnotation",
+			"views/EarthTextureAnnotation",
+			"View.EarthTextureAnnotation",
+			"View.IAnnotation",
+			"View.DotAnnotation",
+			"View.IDotAnnotation",
+			"dataPointController",
+			"DataPointController",
+			"dataPoint",
+			"DataPoint",
+			"dataPoint",
+			"DataPoint",
+			"dataPoint",
+			"\\\"",
+			"//console.log",
+			"seconds"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 10,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Main.ts",
+					"settings":
+					{
+						"buffer_size": 7949,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								293
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Typescript/typescript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/Esfandiar/Sites/earth.js/examples/angularjs/index.html",
+					"settings":
+					{
+						"buffer_size": 2254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								471,
+								402
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/EarthTextureAnnotation.ts",
+					"settings":
+					{
+						"buffer_size": 746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Typescript/typescript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "controllers/DataPointController.ts",
+					"settings":
+					{
+						"buffer_size": 3163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2352,
+								2352
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Typescript/typescript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 646.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "controllers/EarthController.ts",
+					"settings":
+					{
+						"buffer_size": 1592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								287,
+								292
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Typescript/typescript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "plugins/jquery.earth.js",
+					"settings":
+					{
+						"buffer_size": 2022,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/Esfandiar/Sites/earth.js/examples/jquery/index.html",
+					"settings":
+					{
+						"buffer_size": 2090,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								467,
+								467
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "views/DataPointsView.ts",
+					"settings":
+					{
+						"buffer_size": 1362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1340,
+								1340
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Typescript/typescript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "views/DotAnnotation.ts",
+					"settings":
+					{
+						"buffer_size": 4251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227,
+								227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Typescript/typescript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/Esfandiar/Sites/earth.js/package.json",
+					"settings":
+					{
+						"buffer_size": 1149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								969,
+								969
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/Esfandiar/Sites/earth.js/Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 2571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								594,
+								594
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 799.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 147.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"main",
+				"src/Main.ts"
+			],
+			[
+				"",
+				"src/controllers/DataPointController.ts"
+			],
+			[
+				"dotann",
+				"src/views/DotAnnotation.ts"
+			],
+			[
+				"datapoin",
+				"src/views/DataPointsView.ts"
+			],
+			[
+				"earthte",
+				"src/views/EarthTextureAnnotation.ts"
+			],
+			[
+				"earth",
+				"src/controllers/EarthController.ts"
+			],
+			[
+				"earthtex",
+				"src/models/EarthTextureAnnotation.ts"
+			],
+			[
+				"camera",
+				"src/helpers/Camera.ts"
+			],
+			[
+				"earthcon",
+				"src/controllers/EarthController.ts"
+			],
+			[
+				"datapo",
+				"src/controllers/DataPointController.ts"
+			],
+			[
+				"styl",
+				"public/css/style.css"
+			],
+			[
+				"index",
+				"public/index.html"
+			],
+			[
+				"eventpro",
+				"server/models/EventProvider.js"
+			],
+			[
+				"ear",
+				"earthApp.js"
+			],
+			[
+				"db",
+				"app/managers/DbEventProvider.ts"
+			],
+			[
+				"event",
+				"app/models/Event.ts"
+			],
+			[
+				"eventdet",
+				"app/views/EventDetailView.ts"
+			],
+			[
+				"config",
+				"public/js/appConfig.js"
+			],
+			[
+				"eventdeta",
+				"app/views/EventDetailView.ts"
+			],
+			[
+				"earthmanager",
+				"app/managers/EarthManager.ts"
+			],
+			[
+				"posi",
+				"app/models/Position.ts"
+			],
+			[
+				"dot",
+				"app/models/DotAnnotation.ts"
+			],
+			[
+				"event.ts",
+				"app/models/Event.ts"
+			],
+			[
+				"eventmana",
+				"app/managers/EventManager.ts"
+			],
+			[
+				"eventsview",
+				"app/views/EventsView.ts"
+			],
+			[
+				"eventmanager",
+				"app/managers/EventManager.ts"
+			],
+			[
+				"eartha",
+				"earthApp.js"
+			],
+			[
+				"inde",
+				"public/index.html"
+			],
+			[
+				"earthap",
+				"earthApp.js"
+			],
+			[
+				"earthapp",
+				"earthApp.js"
+			],
+			[
+				"eventde",
+				"app/views/EventDetailView.ts"
+			],
+			[
+				"app",
+				"public/js/appConfig.js"
+			],
+			[
+				"appcinf",
+				"node_modules/express/node_modules/connect/node_modules/formidable/test/fixture/http/special-chars-in-filename/info.md"
+			],
+			[
+				"appcon",
+				"public/js/appConfig.js"
+			],
+			[
+				"appconf",
+				"public/js/appConfig.js"
+			],
+			[
+				"eventd",
+				"app/views/EventDetailView.ts"
+			],
+			[
+				"earthmana",
+				"app/managers/EarthManager.ts"
+			],
+			[
+				"ind",
+				"public/index.html"
+			],
+			[
+				"eventview",
+				"app/views/EventDetailView.ts"
+			],
+			[
+				"earthapp.js",
+				"earthApp.js"
+			],
+			[
+				"pos",
+				"app/models/Position.ts"
+			],
+			[
+				"posit",
+				"app/models/Position.ts"
+			],
+			[
+				"camerahe",
+				"app/helpers/CameraHelper.ts"
+			],
+			[
+				"main.ts",
+				"app/main.ts"
+			],
+			[
+				"eventmanag",
+				"app/managers/EventManager.ts"
+			],
+			[
+				"camerah",
+				"app/helpers/CameraHelper.ts"
+			],
+			[
+				"iann",
+				"app/models/IAnnotation.ts"
+			],
+			[
+				"earthtext",
+				"app/models/EarthTextureAnnotation.ts"
+			],
+			[
+				"ianno",
+				"app/models/IAnnotation.ts"
+			],
+			[
+				"file",
+				"app/managers/FileEventProvider.ts"
+			],
+			[
+				"eventmanage",
+				"app/managers/EventManager.ts"
+			],
+			[
+				"json",
+				"app/models/JsonEvent.ts"
+			],
+			[
+				"timeslider",
+				"app/managers/TimeSliderManager.ts"
+			],
+			[
+				"eventprov",
+				"app/managers/EventProvider.ts"
+			],
+			[
+				"ieventpro",
+				"app/managers/FileEventProvider.ts"
+			],
+			[
+				"eartht",
+				"app/models/EarthTextureAnnotation.js"
+			],
+			[
+				"events",
+				"app/views/EventsView.ts"
+			],
+			[
+				"dbeve",
+				"app/managers/DbEventProvider.ts"
+			],
+			[
+				"eventsvie",
+				"app/views/EventsView.ts"
+			],
+			[
+				"prov",
+				"server/models/EventProvider.js"
+			],
+			[
+				"eventpr",
+				"server/models/EventProvider.js"
+			],
+			[
+				"eventprovider",
+				"server/models/EventProvider.js"
+			],
+			[
+				"user",
+				"app/models/User.ts"
+			],
+			[
+				"usermanager",
+				"app/managers/UserManager.ts"
+			],
+			[
+				"filee",
+				"app/managers/FileEventProvider.ts"
+			],
+			[
+				"eventma",
+				"app/managers/EventManager.ts"
+			],
+			[
+				"jsone",
+				"app/models/JsonEvent.ts"
+			],
+			[
+				"eventdeat",
+				"app/views/EventDetailView.ts"
+			],
+			[
+				"neweven",
+				"app/views/NewEvent.ts"
+			],
+			[
+				"neweve",
+				"app/views/NewEvent.ts"
+			],
+			[
+				"newevent",
+				"app/views/NewEvent.ts"
+			],
+			[
+				"positio",
+				"app/models/Position.ts"
+			],
+			[
+				"earthman",
+				"app/managers/EarthManager.ts"
+			],
+			[
+				"guid",
+				"app/helpers/GuidHelper.ts"
+			],
+			[
+				"fileevent",
+				"app/managers/FileEventProvider.ts"
+			],
+			[
+				"usermana",
+				"app/managers/UserManager.ts"
+			],
+			[
+				"appc",
+				"public/js/appConfig.js"
+			],
+			[
+				"main.js",
+				"src/public/js/main.js"
+			],
+			[
+				"style",
+				"public/css/style.css"
+			],
+			[
+				"sound",
+				"public/js/commands/PlaySoundcloud.js"
+			],
+			[
+				"yout",
+				"public/js/commands/PlayYoutube.js"
+			],
+			[
+				"showpi",
+				"public/js/commands/ShowPicasa.js"
+			],
+			[
+				"solar",
+				"solarSystemApp.js"
+			],
+			[
+				"show",
+				"public/js/commands/ShowPicasa.js"
+			],
+			[
+				"playyou",
+				"public/js/commands/PlayYoutube.js"
+			],
+			[
+				"playsou",
+				"public/js/commands/PlaySoundcloud.js"
+			],
+			[
+				"movecamto",
+				"public/js/commands/MoveCamToPlanet.js"
+			],
+			[
+				"movecamby",
+				"public/js/commands/MoveCamByDistance.js"
+			],
+			[
+				"tour",
+				"routes/tour.js"
+			],
+			[
+				"mai",
+				"public/js/main.js"
+			],
+			[
+				"tours",
+				"routes/tour.js"
+			],
+			[
+				"space",
+				"routes/space_object.js"
+			],
+			[
+				"menu",
+				"routes/menu.js"
+			],
+			[
+				"lan",
+				"routes/language.js"
+			],
+			[
+				"feed",
+				"routes/feedback.js"
+			],
+			[
+				"fee",
+				"routes/feedback.js"
+			],
+			[
+				"email",
+				"helper/emailer.js"
+			],
+			[
+				"contac",
+				"public/js/jquery.contactable.js"
+			],
+			[
+				"con",
+				"public/css/contactable.css"
+			],
+			[
+				"emai",
+				"helper/emailer.js"
+			],
+			[
+				"heler",
+				"node_modules/nodemailer/lib/helpers.js"
+			],
+			[
+				"helper",
+				"public/js/Helper.js"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"error",
+				"helper/errorHandler.js"
+			],
+			[
+				"in",
+				"public/index.html"
+			],
+			[
+				"sty",
+				"node_modules/.bin/stylus"
+			],
+			[
+				"lang",
+				"routes/language.js"
+			],
+			[
+				"playsound",
+				"public/js/commands/PlaySoundcloud.js"
+			],
+			[
+				"showpica",
+				"public/js/commands/ShowPicasa.js"
+			],
+			[
+				"playyoutube",
+				"public/js/commands/PlayYoutube.js"
+			],
+			[
+				"play",
+				"public/js/commands/PlayYoutube.js"
+			],
+			[
+				"playyout",
+				"public/js/commands/PlayYoutube.js"
+			],
+			[
+				"movecamtopl",
+				"public/js/commands/MoveCamToPlanet.js"
+			],
+			[
+				"showme",
+				"public/js/commands/ShowMenu.js"
+			],
+			[
+				"hidem",
+				"public/js/commands/HideMenu.js"
+			],
+			[
+				"showpic",
+				"public/js/commands/ShowPicasa.js"
+			],
+			[
+				"playso",
+				"public/js/commands/PlaySoundcloud.js"
+			],
+			[
+				"movecam.",
+				"public/js/commands/MoveCam.js"
+			],
+			[
+				"movecambyd",
+				"public/js/commands/MoveCamByDistance.js"
+			],
+			[
+				"movecam",
+				"public/js/commands/MoveCamToLocation.js"
+			],
+			[
+				"hideme",
+				"public/js/commands/HideMenu.js"
+			],
+			[
+				"changee",
+				"public/js/commands/ChangeEffect.js"
+			],
+			[
+				"command",
+				"public/js/commands/command.js"
+			],
+			[
+				"movecamb",
+				"public/js/commands/MoveCamByDistance.js"
+			],
+			[
+				"change",
+				"public/js/commands/ChangeEffect.js"
+			],
+			[
+				"changeef",
+				"public/js/commands/ChangeEffect.js"
+			],
+			[
+				"playsoundc",
+				"public/js/commands/PlaySoundcloud.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true
+}

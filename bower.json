@@ -1,0 +1,7 @@
+{
+  "name": "EarthJS",
+  "dependencies": {
+    "threejs": "https://github.com/mrdoob/three.js.git",
+    "mocha": "https://github.com/borisyankov/DefinitelyTyped/raw/master/mocha/mocha.d.ts"
+  }
+}

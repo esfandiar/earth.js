@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>EarthJs AngularJS directive Test</title>
+	<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
+	<script type="text/javascript" src="../../libs/threejsLibs.js"></script>
+	<script type="text/javascript" src="../../src/plugins/angular.earth.js"></script>
+	<script type="text/javascript" src="../../build/earth.js"></script>
+	<script type="text/javascript">
+		angular.module('myApp',['earthModule'])
+		.controller('myController', function($scope){
+			
+			// Setup the initial dataPoints... this can be an empty array. For the demonstration purposes it's filled in
+			$scope.dataPoints = [
+			{id:'1', title:'Toronto', latitude:43.65323, longitude:-79.38318, detail:'Toronto, Canada - Sunny weather', annotationImage: '/examples/images/Sunny-icon.png',background:''},
+			{id:'2', title:'Paris', latitude:48.85661, longitude:2.35222, detail:'Paris, France - Sunny weather', annotationImage: '/examples/images/Sunny-icon.png',background:''}
+			];
+			
+			// Change the texture of the earth model
+			$scope.earthTexture = '/examples/images/EarthTexture.jpg';
+
+			// The function for adding a data point to the dataPoints array. 
+			// Since dataPoints are linked to the directive, the data points on the earth model will get updated automatically
+			$scope.addDataPoint = function(){
+				var newDataPoint = {id:$scope.newDataPointId, title:$scope.newDataPointTitle, latitude:$scope.newDataPointLatitude, longitude:$scope.newDataPointLongitude, detail:$scope.newDataPointDetail, annotationImage: $scope.newDataPointAnnotationImage};
+				$scope.dataPoints.push(newDataPoint);
+			}
+
+			// The function for removing a data point from the dataPoints array.
+			// Since dataPoints are linked to the directive, the data points on the earth model will get updated automatically
+			$scope.removeDataPoint = function(dataPointId){
+				var dataPointIndexToRemove = -1;
+				for (var i = 0; i < $scope.dataPoints.length; i++){
+					if ($scope.dataPoints[i].id === dataPointId){
+						dataPointIndexToRemove = i;
+						break;
+					}
+				}
+				if (dataPointIndexToRemove != -1)
+					$scope.dataPoints.splice(dataPointIndexToRemove,1);
+			}
+
+			// Setup the callback function which is invoked when a data point is clicked on the earth model
+			$scope.dataPointClicked = function(selectedDataPoint){
+				$scope.$apply(function(){
+					for (var i = 0; i < $scope.dataPoints.length; i++){
+						$scope.dataPoints[i].id === selectedDataPoint.id ? $scope.dataPoints[i].background = '#CC9933' : $scope.dataPoints[i].background = '';
+					}
+				});
+			}
+		});
+	</script>
+</head>
+<body ng-app="myApp" style="background-color:#000000;color:#FFFFFF;margin:0;padding:0;width:100%;height:100%;">
+	<div ng-controller="myController" style="width:100%;height:100%;">
+		<div style="width:600px;float:left;margin:50px;">
+			<div ng-repeat="dataPoint in dataPoints" ng-style="{backgroundColor: dataPoint.background}" style="margin:10px;">
+				<div style="float:left;margin:5px;">ID: {{dataPoint.id}}</div>
+				<div style="float:left;margin:5px;">Title: {{dataPoint.title}}</div>
+				<div style="float:left;margin:5px;">Detail: {{dataPoint.detail}}</div>
+				<i ng-click="removeDataPoint(dataPoint.id)" style="float:left;margin:5px;" class="icon-remove icon-white"></i>
+				<br style="clear:both;"/>
+			</div>
+			<form ng-submit="addDataPoint()">
+				<input type="text" ng-model="newDataPointId" size="10" placeholder="ID">
+				<input type="text" ng-model="newDataPointTitle" size="20" placeholder="Title">
+				<input type="text" ng-model="newDataPointLatitude" size="10" placeholder="Latitude">
+				<input type="text" ng-model="newDataPointLongitude" size="10" placeholder="Longitude">
+				<input type="text" ng-model="newDataPointDetail" size="30" placeholder="Detail">
+				<input type="text" ng-model="newDataPointAnnotationImage" size="30" placeholder="Annotation Image URL">
+				<input type="submit" class="btn btn-primary" value="Add New Data Point">
+			</form>
+		</div>
+		<div style="float:right;">
+			<earth dataPoints="{{dataPoints}}" earthTexture="{{earthTexture}}" dataPointClickedCallback="dataPointClicked" width="600" height="600" />
+		<div>
+	</div>
+</body>
+</html>
