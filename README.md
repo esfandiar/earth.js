@@ -13,7 +13,7 @@ Download the [the main minified file](https://github.com/esfandiar/earth.js/buil
 
 If you haven't included Three.js library in your HTML, then you also need to download [this file](https://github.com/esfandiar/earth.js/libs/threejsLibs.js).
 
-If you have included Three.js library already, just make sure that you also include these files from Three.js:
+If you have included Three.js library already, just make sure that you also include these files from Three.js (please note that right now Three.js r59 is not yet compatible with this version of Earth.js):
 - 'threejs/build/three.min.js'
 - 'threejs/examples/js/Detector.js'
 - 'threejs/examples/js/controls/TrackballControls.js'
