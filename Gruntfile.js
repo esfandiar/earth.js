@@ -34,6 +34,7 @@ module.exports = function(grunt) {
     test: {
        unit: './test/karma-unit.conf.js'
     },
+    /*
     concat: {
       scripts: {
         options: {
@@ -50,6 +51,7 @@ module.exports = function(grunt) {
         ]
       },
     },
+    */
     uglify: {
       my_target: {
         files: {
@@ -61,7 +63,8 @@ module.exports = function(grunt) {
 
   grunt.registerTask('install', ['shell:install']);
 
-  grunt.registerTask('compile', ['shell:compile','concat']);
+  //grunt.registerTask('compile', ['shell:compile','concat']);
+  grunt.registerTask('compile', ['shell:compile']);
 
   grunt.registerMultiTask('test', 'Run and watch the unit tests with Karma', function() {
     grunt.task.run(['compile']);
