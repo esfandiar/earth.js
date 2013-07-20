@@ -8,6 +8,7 @@ This project makes use of [Three.js library](https://github.com/mrdoob/three.js/
 The source code is written in [Typescript](http://www.typescriptlang.org/) which is compiled into Javascript.
 
 Sample screenshot:
+
 ![Alt text](/examples/screenshots/Screenshot1.png)
 
 ### Usage ###
