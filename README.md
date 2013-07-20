@@ -7,6 +7,9 @@ This project makes use of [Three.js library](https://github.com/mrdoob/three.js/
 
 The source code is written in [Typescript](http://www.typescriptlang.org/) which is compiled into Javascript.
 
+Sample screenshot:
+![Alt text](/examples/screenshots/Screenshot1.png)
+
 ### Usage ###
 
 Download the [the main minified file](https://github.com/esfandiar/earth.js/tree/master/build/earth.min.js) and include it in your html. You can use this single file to setup earth.js.
