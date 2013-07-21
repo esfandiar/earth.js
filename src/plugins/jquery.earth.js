@@ -9,7 +9,8 @@
     	var settings = $.extend({
 		    dataPointClickedCallback:null,
 		    width:0,
-		    height:0
+		    height:0,
+		    atmosphereTexture:''
 		}, options);
 
     	var plugin = this.each( function() {
@@ -39,10 +40,14 @@
             else{
                 height = parseInt(settings.height);
             }
-
-            appInstance.setSize(width, height);
             
+			appInstance.setSize(width, height);
+
     		appInstance.start();
+
+            var atmosphereTexture = settings.atmosphereTexture;
+            appInstance.setAtmosphereTexture(atmosphereTexture);
+
     		appInstances.push(appInstance);
 		    if ( $.isFunction( settings.dataPointClickedCallback ) ) {
 		    	appInstance.setDataPointClickedCallback(settings.dataPointClickedCallback);

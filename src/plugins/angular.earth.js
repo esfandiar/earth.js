@@ -68,6 +68,9 @@ angular
 
             appInstance.start();
 
+            var atmosphereTexture = attrs.atmospheretexture;
+            appInstance.setAtmosphereTexture(atmosphereTexture);
+
             if (attrs.datapointclickedcallback != null && attrs.datapointclickedcallback != undefined){
                 appInstance.setDataPointClickedCallback(function(dataPoint){
                     $scope[attrs.datapointclickedcallback](dataPoint);

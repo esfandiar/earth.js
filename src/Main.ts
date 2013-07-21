@@ -125,6 +125,10 @@ module EarthJsApp {
 			this.earthManager.setTexture(textureUrl);
 		}
 
+		public setAtmosphereTexture(textureUrl: string): void{
+			this.earthManager.setAtmosphereTexture(textureUrl);
+		}
+
 		public setSize(width: number, height: number): void{
 			_width = width;
 			_height = height;

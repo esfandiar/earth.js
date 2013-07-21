@@ -17,9 +17,10 @@
 			{id:'1', title:'Toronto', latitude:43.65323, longitude:-79.38318, detail:'Toronto, Canada - Sunny weather', annotationImage: '/examples/images/Sunny-icon.png',background:''},
 			{id:'2', title:'Paris', latitude:48.85661, longitude:2.35222, detail:'Paris, France - Sunny weather', annotationImage: '/examples/images/Sunny-icon.png',background:''}
 			];
-			
+
 			// Change the texture of the earth model
 			$scope.earthTexture = '/examples/images/EarthTexture.jpg';
+
 
 			// The function for adding a data point to the dataPoints array. 
 			// Since dataPoints are linked to the directive, the data points on the earth model will get updated automatically
@@ -74,7 +75,7 @@
 			</form>
 		</div>
 		<div style="float:right;">
-			<earth dataPoints="{{dataPoints}}" earthTexture="{{earthTexture}}" dataPointClickedCallback="dataPointClicked" width="600" height="600" />
+			<earth dataPoints="{{dataPoints}}" earthTexture="{{earthTexture}}" atmosphereTexture="/examples/images/atmosphere.png" dataPointClickedCallback="dataPointClicked" width="600" height="600" />
 		<div>
 	</div>
 </body>

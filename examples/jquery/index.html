@@ -29,7 +29,7 @@
 			};
 
 			// Setup the plugin here
-			var earthPlugin = $('#earth').earth({'width':'600','height':'600','dataPointClickedCallback':dataPointClickedCallback});
+			var earthPlugin = $('#earth').earth({'width':'600','height':'600','dataPointClickedCallback':dataPointClickedCallback,'atmosphereTexture':'/examples/images/atmosphere.png'});
 			// Change the texture of the earth model
 			earthPlugin.setEarthTexture('/examples/images/EarthTexture.jpg');
 			// Set the data points on the map. This function will replace all the existing data points with the given data points.

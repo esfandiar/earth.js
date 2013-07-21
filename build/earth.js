@@ -498,6 +498,17 @@ var EarthJsController;
             var material = new THREE.MeshBasicMaterial({ color: 0xffffff });
 
             this.earthMesh = new THREE.Mesh(geometry, material);
+
+            var spriteMap = THREE.ImageUtils.loadTexture('');
+            var spriteMaterial = new THREE.SpriteMaterial({ map: spriteMap, useScreenCoordinates: false, blending: THREE.AdditiveBlending });
+            this.atmosphereMesh = new THREE.Sprite(spriteMaterial);
+            this.atmosphereMesh.position.x = 0;
+            this.atmosphereMesh.position.y = 0;
+            this.atmosphereMesh.position.z = 0;
+            this.atmosphereMesh.scale = new THREE.Vector3(270, 270, 270);
+
+            this.earthMesh.add(this.atmosphereMesh);
+
             scene.add(this.earthMesh);
         }
         EarthController.prototype.clickDataPoint = function (dataPoint) {
@@ -514,6 +525,11 @@ var EarthJsController;
         EarthController.prototype.setTexture = function (textureUrl) {
             var map = THREE.ImageUtils.loadTexture(textureUrl);
             this.earthMesh.material.map = map;
+        };
+
+        EarthController.prototype.setAtmosphereTexture = function (textureUrl) {
+            var map = THREE.ImageUtils.loadTexture(textureUrl);
+            this.atmosphereMesh.material.map = map;
         };
         return EarthController;
     })();
@@ -626,6 +642,10 @@ var EarthJsApp;
 
         App.prototype.setEarthTexture = function (textureUrl) {
             this.earthManager.setTexture(textureUrl);
+        };
+
+        App.prototype.setAtmosphereTexture = function (textureUrl) {
+            this.earthManager.setAtmosphereTexture(textureUrl);
         };
 
         App.prototype.setSize = function (width, height) {

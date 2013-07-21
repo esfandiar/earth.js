@@ -11,14 +11,17 @@ module EarthJsController{
 
 	export interface IEarthController{
 		earthMesh: any;
+		atmosphereMesh: any;
 		camera: any;
 		dataPointClicked(dataPoint: EarthJsModel.IDataPoint): void;
 		clickDataPoint(dataPoint: EarthJsModel.IDataPoint): void;
 		setTexture(textureUrl: string): void;
+		setAtmosphereTexture(textureUrl: string): void;
 	}
 
 	export class EarthController implements IEarthController {
 		earthMesh: any;
+		atmosphereMesh: any;
 		cameraHelper: EarthJsHelper.ICameraHelper;
 		camera: any;
 		scene: any;
@@ -35,6 +38,17 @@ module EarthJsController{
 	        var material = new THREE.MeshBasicMaterial( { color: 0xffffff } );
 
 	       	this.earthMesh = new THREE.Mesh( geometry, material );
+
+	       	var spriteMap = THREE.ImageUtils.loadTexture('');
+		    var spriteMaterial = new THREE.SpriteMaterial( { map: spriteMap, useScreenCoordinates: false, blending: THREE.AdditiveBlending } );
+			this.atmosphereMesh = new THREE.Sprite(spriteMaterial);
+			this.atmosphereMesh.position.x = 0;
+		    this.atmosphereMesh.position.y = 0;
+		    this.atmosphereMesh.position.z = 0;
+			this.atmosphereMesh.scale = new THREE.Vector3( 270, 270, 270 );
+		    
+		    this.earthMesh.add(this.atmosphereMesh);
+
 	        scene.add( this.earthMesh );
 		}
 
@@ -53,6 +67,11 @@ module EarthJsController{
 		setTexture(textureUrl: string): void{
 			var map = THREE.ImageUtils.loadTexture(textureUrl);
 			this.earthMesh.material.map = map;
+		}
+
+		setAtmosphereTexture(textureUrl: string): void{
+			var map = THREE.ImageUtils.loadTexture(textureUrl);
+			this.atmosphereMesh.material.map = map;
 		}
 	}
 }

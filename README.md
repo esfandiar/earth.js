@@ -45,7 +45,7 @@ For AngularJS directive download the [file](https://github.com/esfandiar/earth.j
 <!-- This is only an example. The only thing that you really need to include is the earth directive -->
 <body ng-app="myApp">
 	<div ng-controller="myController">
-		<earth dataPoints="{{dataPoints}}" earthTexture="{{earthTexture}}" dataPointClickedCallback="dataPointClicked" width="600" height="600" />
+		<earth dataPoints="{{dataPoints}}" earthTexture="{{earthTexture}}" atmosphereTexture="/examples/images/atmosphere.png" dataPointClickedCallback="dataPointClicked" width="600" height="600" />
 	</div>
 </body>
 ```
@@ -66,6 +66,7 @@ annotationImage: 'URL of the image for the data point'}
 - dataPointClickedCallback: the callback function that will be called when a data point is clicked on the earth model (if you are updating the $scope, remember to wrap it in $scope.$apply in here since the function is called externally on a seperate run).
 - width: the width of the directive. The possible values are "fullScreen" or a static value in pixels, such as "600".
 - height: the height of the directive. The possible values are "fullScreen" or a static value in pixels, such as "600".
+- atmosphereTexture: the URL of the image for atmosphere's texture. As a suggestion you can just use the atmosphere texture that is already included in /examples/images folder.
 
 #### jQuery Plugin ####
 
@@ -85,11 +86,12 @@ Here's a full [example](https://github.com/esfandiar/earth.js/tree/master/exampl
 
 Setup:
 ```
-$('#earth').earth({'width':'600','height':'600','dataPointClickedCallback':dataPointClickedCallback});
+$('#earth').earth({'width':'600','height':'600','dataPointClickedCallback':dataPointClickedCallback,'atmosphereTexture':'/examples/images/atmosphere.png'});
 ```
 - width: the width of the plugin. The possible values are "fullScreen" or a static value in pixels, such as "600".
 - height: the height of the plugin. The possible values are "fullScreen" or a static value in pixels, such as "600".
 - dataPointClickedCallback: the callback function that will be called when a data point is clicked on the earth model.
+- atmosphereTexture: the URL of the image for atmosphere's texture. As a suggestion you can just use the atmosphere texture that is already included in /examples/images folder.
 
 Available functions for the plugin:
 - setDataPoints(dataPoints): Set the data points on the earth model. The data points are an array of JSON objects. Each data point should have the following format:
