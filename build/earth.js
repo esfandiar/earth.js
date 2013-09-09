@@ -783,15 +783,15 @@ var EarthJsApp;
         };
 
         App.prototype.onWindowResize = function (event) {
-            var width = _width === 0 ? window.innerWidth : _width;
-            var height = _height === 0 ? window.innerHeight : _height;
+            _width = _width === 0 ? window.innerWidth : _width;
+            _height = _height === 0 ? window.innerHeight : _height;
 
-            _camera.aspect = width / height;
+            _camera.aspect = _width / _height;
             _camera.updateProjectionMatrix();
 
-            _renderer.setSize(width, height);
-            _renderer.domElement.style.width = width + 'px';
-            _renderer.domElement.style.height = height + 'px';
+            _renderer.setSize(_width, _height);
+            _renderer.domElement.style.width = _width + 'px';
+            _renderer.domElement.style.height = _height + 'px';
         };
         return App;
     })();

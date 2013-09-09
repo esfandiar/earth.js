@@ -19,13 +19,16 @@ angular
                 var jsonDataPoints = [];
 
                 for(var i = 0; i < dataPoints.length; i++){
+                    var annotationType = dataPoints[i].annotationType;
+                    if (annotationType == null || annotationType == undefined)
+                        annotationType = 'dot';
                     jsonDataPoints.push({
                         id: dataPoints[i].id,
                         title: dataPoints[i].title,
                         latitude: dataPoints[i].latitude,
                         longitude: dataPoints[i].longitude,
                         detail: dataPoints[i].detail,
-                        annotationType: 'dot',
+                        annotationType: annotationType,
                         annotationImage: dataPoints[i].annotationImage
                     });
                 }
